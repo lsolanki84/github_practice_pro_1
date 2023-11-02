@@ -5,5 +5,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Print the info
-              run: echo "${{toJson(github.event.label.url)}}"
+              run: echo "${{toJson(github.event.issue)}}"
 
